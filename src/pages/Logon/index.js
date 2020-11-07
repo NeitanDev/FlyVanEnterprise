@@ -36,6 +36,7 @@ function Logon() {
                         placeholder="senha"
                         value={id}
                         onChange={e => setId(e.target.value)}
+                        
                         style="margin-top:20px"
                     />
                     <button className="button" type="submit">Entrar</button>
