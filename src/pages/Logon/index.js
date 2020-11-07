@@ -37,7 +37,7 @@ function Logon() {
                         value={id}
                         onChange={e => setId(e.target.value)}
 
-                        // style="margin-top:20px"
+                        style="margin-top: 10px;  "
                     />
                     <button className="button" type="submit">Entrar</button>
                     <Link className="back-link" to="/register"><FiLogIn size={16} color="#55c3ad" />Não tenho cadastro</Link>
