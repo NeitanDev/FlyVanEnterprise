@@ -89,19 +89,19 @@
 
 .button-navbar {
     /* width: 100%; */
-    padding-left: 25px;
+    /* padding-left: 25px;
     padding-right: 25px;
-    height: 60px;
+    /* height: 60px; */
     background: #55c3ad;
-    border: 0;
+    /* border: 0;
     border-radius: 8px;
     color: #FFF;
     font-weight: 700;
-    margin-top: 16px;
-    display: inline-block;
-    text-align: center;
+    margin-top: 16px; */
+    /* display: inline-block; */
+    /* text-align: center;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 18px; */
     /* line-height: 60px; */
-    transition: filter 0.2s;
+    /* transition: filter 0.2s; */
 }
