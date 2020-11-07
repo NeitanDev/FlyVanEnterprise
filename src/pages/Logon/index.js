@@ -27,7 +27,12 @@ function Logon() {
                 <form onSubmit={handleLogin}>
                     <h1>Faça logon</h1>
                     <input
-                        placeholder="Sua ID"
+                        placeholder="email"
+                        value={id}
+                        onChange={e => setId(e.target.value)}
+                    />
+                    <input
+                        placeholder="senha"
                         value={id}
                         onChange={e => setId(e.target.value)}
                     />
