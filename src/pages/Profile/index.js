@@ -49,8 +49,10 @@ function Profile() {
                 <img src={logoImg} alt="Be The Hero" />
                 <span>Bem vinda, {ongName}</span>
                 <Link className="button" to="/incidents/new">Cadastrar novo caso</Link>
+
+                <Link className="button" to="/incidents/new">Cadastrar novo caso</Link>
                 <button onClick={handleLogout} type="button">
-                    <FiPower size={24} color="#E02041" />
+                    <FiPower size={24} color="#55c3ad" />
                 </button>
             </header>
             <h1>Casos cadastrados</h1>
