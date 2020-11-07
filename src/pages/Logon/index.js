@@ -14,7 +14,7 @@ function Logon() {
     async function handleLogin(e) {
         e.preventDefault();
         try {
-            console.log('sounou')
+            history.push('/profile');
         } catch{
             alert('Falha no login, tente novamente.');
         }
