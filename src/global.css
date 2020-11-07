@@ -48,7 +48,9 @@ form textarea {
 }
 
 .button {
-    width: 100%;
+    /* width: 100%; */
+    padding-left: 25px;
+    padding-right: 25px;
     height: 60px;
     background: #55c3ad;
     border: 0;
