@@ -32,7 +32,7 @@ function Logon() {
                         onChange={e => setId(e.target.value)}
                     />
                     <button className="button" type="submit">Entrar</button>
-                    <Link className="back-link" to="/register"><FiLogIn size={16} color="#E02041" />Não tenho cadastro</Link>
+                    <Link className="back-link" to="/register"><FiLogIn size={16} color="#55c3ad" />Não tenho cadastro</Link>
                 </form>
             </section>
             <img src={heroesImg} alt="Heroes" />
