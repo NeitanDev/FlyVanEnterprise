@@ -73,6 +73,21 @@ function Profile() {
                     </li>
 
                 ))}
+
+<li>
+                        <strong>CASO:</strong>
+                        <p>Teste</p>
+
+                        <strong>DESCRIÇÂO:</strong>
+                        <p>Teste</p>
+
+                        <strong>VALOR:</strong>
+                        <p>{Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' }).format(15)}</p>
+
+                        <button onClick={() => handleDeleteIncident()} type="button">
+                            <FiTrash2 size={20} color="#a8a8b3" />
+                        </button>
+                    </li>
             </ul>
         </div>
     );
