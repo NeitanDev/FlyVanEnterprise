@@ -13,17 +13,17 @@ function Profile() {
     const history = useHistory();
 
     useEffect(() => {
-        if (ongName === null && ongId === null) {
-            history.push('/');
-        } else if (ongId !== null && ongName !== null) {
-            // api.get('profile', {
-            //     headers: {
-            //         authorization: ongId,
-            //     }
-            // }).then(res => {
-            //     setIncidents(res.data);
-            // })
-        }
+        // if (ongName === null && ongId === null) {
+        //     history.push('/');
+        // } else if (ongId !== null && ongName !== null) {
+        //     // api.get('profile', {
+        //     //     headers: {
+        //     //         authorization: ongId,
+        //     //     }
+        //     // }).then(res => {
+        //     //     setIncidents(res.data);
+        //     // })
+        // }
     }, [ongId]);
 
     async function handleDeleteIncident(id) {
