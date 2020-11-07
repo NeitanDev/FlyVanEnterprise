@@ -26,6 +26,7 @@ function Logon() {
                 <img src={logoImg} alt="Be The Hero" />
                 <form onSubmit={handleLogin}>
                     <h1>Faça logon</h1>
+
                     <input
                         placeholder="email"
                         value={id}
@@ -35,6 +36,7 @@ function Logon() {
                         placeholder="senha"
                         value={id}
                         onChange={e => setId(e.target.value)}
+                        style="margin-top:20px"
                     />
                     <button className="button" type="submit">Entrar</button>
                     <Link className="back-link" to="/register"><FiLogIn size={16} color="#55c3ad" />Não tenho cadastro</Link>
